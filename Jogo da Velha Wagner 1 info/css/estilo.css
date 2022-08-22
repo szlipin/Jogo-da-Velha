@@ -1,0 +1,44 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: solid 2px;
+    background-color: rgb(255, 104, 104);
+    box-sizing: border-box;
+}
+
+.casa {
+    width: 200px;
+    height: 100%;
+    border-right: solid 2px;
+    cursor: pointer;
+}
+
+.linha {
+    display: flex;
+    height: 200px;
+    border-bottom: solid 2px;
+    text-align: center;
+    font-size: 150px;
+    color: black;
+    box-sizing: border-box;
+}
+
+.novo{
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 2px solid silver;
+    border-radius: 6px;
+    background-color: slategray;
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
